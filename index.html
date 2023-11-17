@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset = "UTF-8">
+		<meta name = "author" content = "Leonn">
+		<meta name = "section" content = "Sodium">
+		<meta name = "keywords" content = "FA2">
+		<meta name = "revised" content = "09/19/23">
+  
+  <style>
+    a#link1:link {
+		color: blue;
+		background-color: lightblue;
+    }
+
+    a#link1:visited {
+		color: purple;
+		background-color: lavender;
+    }
+
+    a#link1:hover {
+		color: red;
+		background-color: orange;
+    }
+
+    a#link1:active {
+		color: white;
+		background-color: red;
+    }
+
+    a#link2:link {
+		color: brown;
+		background-color: green;
+    }
+
+    a#link2:visited {
+		color: purple;
+		background-color: lightblue;
+    }
+
+    a#link2:hover {
+		color: white;
+		background-color: darkgreen;
+    }
+
+    a#link2:active {
+		color: white;
+		background-color: green;
+    }
+
+    .box1 {
+		width: 200px;
+		height: 100px;
+		background-color: lightgray;
+		margin-bottom: 10px;
+		padding: 10px;
+    }
+
+    .box2 {
+		width: 200px;
+		height: 100px;
+		background-color: lightgray;
+		padding: 10px;
+		border: 2px solid lightgray;
+    }
+
+    .box1:target {
+		background-color: darkred;
+		color: white;
+    }
+
+    .box2:target {
+		border: 10px dotted green;
+    }
+  </style>
+</head>
+<body>
+
+	<a id="link1" href="#box1">Link 1</a><br>
+	<a id="link2" href="#box2">Link 2</a><br>
+	<div id="box1" class="box1">Div 1 Content</div>
+	<div id="box2" class="box2">Div 2 Content</div>
+
+</body>
+</html>
